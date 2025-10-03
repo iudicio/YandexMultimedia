@@ -7,17 +7,18 @@
     android:background="@android:color/white">
 
     <!-- Toolbar -->
+
+    <!-- Контент -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@android:color/white"
-        app:title="Настройки"
-        app:titleTextColor="@android:color/black"
-        app:navigationIcon="?attr/homeAsUpIndicator"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        app:navigationIcon="@drawable/ic_arrow_back_black"
+        app:title="@string/setings"
+        app:titleTextColor="@android:color/black" />
 
-    <!-- Контент -->
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -41,7 +42,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Темная тема"
+                    android:text="@string/dark_theme"
                     android:textColor="@android:color/black"
                     android:textSize="16sp" />
 
@@ -64,14 +65,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Поделиться приложением"
+                    android:text="@string/send_app"
                     android:textColor="@android:color/black"
                     android:textSize="16sp" />
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@android:drawable/ic_menu_share"
+                    android:src="@drawable/ic_send_app"
                     android:tint="@android:color/darker_gray" />
             </LinearLayout>
 
@@ -88,14 +89,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Написать в поддержку"
+                    android:text="@string/send_help"
                     android:textColor="@android:color/black"
                     android:textSize="16sp" />
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@android:drawable/ic_menu_call"
+                    android:src="@drawable/ic_man"
                     android:tint="@android:color/darker_gray" />
             </LinearLayout>
 
@@ -112,14 +113,14 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Пользовательское соглашение"
+                    android:text="@string/user_accept"
                     android:textColor="@android:color/black"
                     android:textSize="16sp" />
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@android:drawable/ic_media_next"
+                    android:src="@drawable/ic_arrow"
                     android:tint="@android:color/darker_gray" />
             </LinearLayout>
 

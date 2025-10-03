@@ -11,7 +11,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Медиатека"
+        android:text="@string/mediateca"
         android:textStyle="bold"
         android:textSize="18sp"
         android:layout_margin="16dp"
@@ -35,12 +35,12 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Избранные треки" />
+            android:text="@string/star_music" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Плейлисты" />
+            android:text="@string/playlist" />
     </com.google.android.material.tabs.TabLayout>
 
     <!-- Картинка пустой медиатеки -->
@@ -49,7 +49,7 @@
         android:id="@+id/tvEmptyText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ваша медиатека пуста"
+        android:text="@string/mediateca_is_not_exist"
         android:textSize="16sp"
         android:textColor="@android:color/black"
         app:layout_constraintStart_toStartOf="parent"
