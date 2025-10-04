@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_search"
-        android:title="Поиск"
-        android:icon="@android:drawable/ic_menu_search" />
+        android:title="@string/search"
+        android:icon="@drawable/ic_search" />
     <item
         android:id="@+id/nav_library"
-        android:title="Медиатека"
-        android:icon="@android:drawable/ic_menu_gallery" />
+        android:title="@string/mediateca"
+        android:icon="@drawable/ic_mediateca" />
     <item
         android:id="@+id/nav_settings"
-        android:title="Настройки"
-        android:icon="@android:drawable/ic_menu_manage" />
+        android:title="@string/setings"
+        android:icon="@drawable/ic_setings" />
 </menu>
